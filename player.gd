@@ -15,3 +15,6 @@ func _process(delta):
 	if velocity.length()> 0:
 		velocity = velocity.normalized() * speed
 	position += velocity * delta
+
+func _on_body_entered(body):
+	hide()
