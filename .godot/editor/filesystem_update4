@@ -1,5 +1,3 @@
-res://Main.tscn
-res://player.gd
 res://player.tscn
 res://enemy.tscn
 res://world.tscn
